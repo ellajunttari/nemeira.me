@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
+    "marked": "^16.2.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-draggable": "^4.5.0",
