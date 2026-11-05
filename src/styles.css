@@ -213,4 +213,42 @@ ul {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: rgba(40, 0, 40, 0.85);
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  background: rgb(255, 137, 247);
+  border: 5px outset rgb(68, 223, 250);
+}
+
+.lightboxClose {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  color: rgb(100, 4, 100);
+  background: rgb(255, 137, 247);
+  border: 4px outset rgb(68, 223, 250);
 }
