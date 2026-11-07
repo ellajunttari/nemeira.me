@@ -40,6 +40,33 @@ function ToDo({}) {
   )
 }
 
+function Introduction({}) {
+  return (
+    <>
+      <div className="textBox">
+        <h1>Who am I anyway?</h1>
+        <p>If you're here, I'm assuming you probably know me from _somewhere_. But let's put the pieces together, shall we? I am...
+        </p>
+        <ul>
+          <li>An amateur artist</li>
+          <li>A cosplayer</li>
+          <li>A mediocre programmer</li>
+          <li>A devops engineer by trade</li>
+          <li>Born in 1998 (I refuse to have to always update an age, so a year shall do)</li>
+          <li>A dnd player</li>
+          <li>A crafter, sewist, occasional knitter and crocheter, an in general a creator of things for my own amusement</li>
+          <li>A mahjong player, some might say</li>
+          <li>A collector of dreams and hobbies</li>
+          <li>A lover of travel, culture and language</li>
+          <li>A gatherer of knowledge</li>
+          <li>A friend of marmots and pigeons</li>
+          <li>But most of the time just a procrastinating anxious vermin</li>
+        </ul>
+      </div>
+    </>
+  )
+}
+
 export default function Page() {
 
   return (
@@ -50,6 +77,9 @@ export default function Page() {
       </div>
       <div className='contentCenter'>
         <ToDo />
+      </div>
+      <div className='contentRight'>
+        <Introduction />
       </div>
     </div>
   );
