@@ -5,7 +5,6 @@ import Art from './pages/Art';
 import Blog from './pages/Blog';
 import Bookshelf from './pages/Bookshelf';
 import Guestbook from './pages/Guestbook';
-import Contact from './pages/Contact';
 import Wardrobe from './pages/Wardrobe'
 
 
@@ -16,8 +15,7 @@ function Menu({}) {
     { name: 'Bookshelf', component: Bookshelf },
     { name: 'Wardrobe', component: Wardrobe},
     { name: 'Blog', component: Blog },
-    { name: 'Guestbook', component: Guestbook },
-    { name: 'Contact', component: Contact }
+    { name: 'Guestbook', component: Guestbook }
   ];
   return (
     <>
