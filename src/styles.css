@@ -161,7 +161,6 @@ ul {
   flex-direction: column;
   width: 30%;
   min-width: 100px;
-  max-width: 350px;
   gap: 10px;
 }
 
@@ -170,7 +169,6 @@ ul {
   flex-direction: column;
   width: 40%;
   min-width: 100px;
-  max-width: 500px;
   gap: 10px;
 }
 
@@ -179,7 +177,6 @@ ul {
   flex-direction: column;
   width: 30%;
   min-width: 100px;
-  max-width: 350px;
   gap: 10px;
 }
 
