@@ -13,7 +13,7 @@ function Intro({}) {
     <>
       <div className="textBox">
         <p>Omg hi!! I don't know what you're doing here, but welcome anyway. I got inspired by all of the cool personal indie websites that have been floating around 
-          recently and decided to try my hand at making one. This is a free form artistic recreation of my brain, hope you have fun visiting it's dusty corners lol</p>
+          recently and decided to try my hand at making one. This is a free form artistic recreation of my brain, hope you have fun visiting its dusty corners lol</p>
       </div>
     </>
   )
@@ -26,9 +26,9 @@ function ToDo({}) {
       <div className="textBox">
         <h1>Ideas to add</h1>
         <ul>
-          <li>Music player</li>
-          <li>Interactive bookshelf</li>
-          <li>Dress-up wardrobe</li>
+          <li>music player</li>
+          <li>interactive bookshelf</li>
+          <li>dress-up wardrobe</li>
           <li>recommendations</li>
           <li>art gallery</li>
           <li>cosplay gallery</li>
@@ -67,6 +67,22 @@ function Introduction({}) {
   )
 }
 
+function Links({}) {
+  return (
+    <>
+      <div className="textBox">
+        <h1>Links!</h1>
+        <ul>
+          <li><a href="https://www.instagram.com/nemeirax">cosplay instagram</a></li>
+          <li><a href="https://www.tiktok.com/@nemeira">cosplay tiktok</a></li>
+          <li><a href="https://www.twitch.tv/nemeirax">twitch</a></li>
+          <li><a href="https://nemeira.itch.io/">itch.io</a></li>
+        </ul>
+      </div>
+    </>
+  )
+}
+
 export default function Page() {
 
   return (
@@ -77,6 +93,7 @@ export default function Page() {
       </div>
       <div className='contentCenter'>
         <ToDo />
+        <Links />
       </div>
       <div className='contentRight'>
         <Introduction />
