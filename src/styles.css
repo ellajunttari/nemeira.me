@@ -80,14 +80,15 @@ ul {
 .status {
   margin-bottom: 10px;
 }
-.site {
+
+.game {
   display: flex;
   flex-direction: column;
   width: 70%;
   min-width: 400px;
 }
 
-.site-info {
+.game-info {
   margin-left: 0px;
 }
 
