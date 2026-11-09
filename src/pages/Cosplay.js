@@ -39,7 +39,7 @@ export default function Cosplay() {
           >
           </button>
           <img
-            src={`/art/${encodeURI(selected)}`}
+            src={`/cosplay/${encodeURI(selected)}`}
             alt=""
             onClick={(event) => event.stopPropagation()}
           />
@@ -55,7 +55,7 @@ function Drawing({ name, onOpen }) {
       type="button"
       className="drawing"
       aria-label={`Open ${name}`}
-      style={{ backgroundImage: `url(/art/${encodeURI(name)})` }}
+      style={{ backgroundImage: `url(/cosplay/${encodeURI(name)})` }}
       onClick={onOpen}
     />
   );
