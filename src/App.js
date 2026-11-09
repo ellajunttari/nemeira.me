@@ -12,10 +12,10 @@ function Menu({}) {
   const items = [
     { name: 'About', component: About },
     { name: 'Art', component: Art },
-    { name: 'Bookshelf', component: Bookshelf },
+    /**{ name: 'Bookshelf', component: Bookshelf },*/
     { name: 'Wardrobe', component: Wardrobe},
     { name: 'Blog', component: Blog },
-    { name: 'Guestbook', component: Guestbook }
+    /**{ name: 'Guestbook', component: Guestbook }*/
   ];
   return (
     <>
