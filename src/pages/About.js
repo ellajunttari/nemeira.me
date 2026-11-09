@@ -48,19 +48,19 @@ function Introduction({}) {
         <p>If you're here, I'm assuming you probably know me from _somewhere_. But let's put the pieces together, shall we? I am...
         </p>
         <ul>
-          <li>An amateur artist</li>
-          <li>A cosplayer</li>
-          <li>A mediocre programmer</li>
-          <li>A devops engineer by trade</li>
-          <li>Born in 1998 (I refuse to have to always update an age, so a year shall do)</li>
-          <li>A dnd player</li>
-          <li>A crafter, sewist, occasional knitter and crocheter, an in general a creator of things for my own amusement</li>
-          <li>A mahjong player, some might say</li>
-          <li>A collector of dreams and hobbies</li>
-          <li>A lover of travel, culture and language</li>
-          <li>A gatherer of knowledge</li>
-          <li>A friend of marmots and pigeons</li>
-          <li>But most of the time just a procrastinating anxious vermin</li>
+          <li>an amateur artist</li>
+          <li>a cosplayer</li>
+          <li>a mediocre programmer</li>
+          <li>a devops engineer by trade</li>
+          <li>born in 1998 (I refuse to have to always update an age, so a year shall do)</li>
+          <li>a dnd player</li>
+          <li>a crafter, sewist, occasional knitter and crocheter, an in general a creator of things for my own amusement</li>
+          <li>a mahjong player, some might say</li>
+          <li>a collector of dreams and hobbies</li>
+          <li>a lover of travel, culture and language</li>
+          <li>a gatherer of knowledge</li>
+          <li>a friend of marmots and pigeons</li>
+          <li>but most of the time just a procrastinating anxious vermin</li>
         </ul>
       </div>
     </>
