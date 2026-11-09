@@ -15,7 +15,7 @@ function Menu({}) {
     { name: 'Art', component: Art },
     { name: 'Cosplay', component: Cosplay },
     /**{ name: 'Bookshelf', component: Bookshelf },*/
-    { name: 'Wardrobe', component: Wardrobe},
+    /**{ name: 'Wardrobe', component: Wardrobe},*/
     { name: 'Blog', component: Blog },
     /**{ name: 'Guestbook', component: Guestbook }*/
   ];
