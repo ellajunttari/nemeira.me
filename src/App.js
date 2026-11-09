@@ -5,13 +5,15 @@ import Art from './pages/Art';
 import Blog from './pages/Blog';
 import Bookshelf from './pages/Bookshelf';
 import Guestbook from './pages/Guestbook';
-import Wardrobe from './pages/Wardrobe'
+import Wardrobe from './pages/Wardrobe';
+import Cosplay from './pages/Cosplay'
 
 
 function Menu({}) {
   const items = [
     { name: 'About', component: About },
     { name: 'Art', component: Art },
+    { name: 'Cosplay', component: Cosplay },
     /**{ name: 'Bookshelf', component: Bookshelf },*/
     { name: 'Wardrobe', component: Wardrobe},
     { name: 'Blog', component: Blog },
